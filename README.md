@@ -14,6 +14,9 @@ HW_1 :
 #Initial guesses of the solution <br>
 [-1,-1,-1,-1,-1],[-10,-9,-8,-7,-6],[10,9,8,7,6],[10,10,10,10,10],[-10,-10,-10,-10,-10],[0,0,0,0,0]
 
+# Code can be found in the below Jupyter Notebook
+https://github.com/dnaidu2/MAE598-Design-Optimization/blob/8ee7ea7e9333dbb58919a2e89d7d94ab90e98d7f/HW_1.ipynb
+
 # Change your initial guess, do you find different solutions?
 
 |Iteration       |	      |Function            |      |X values| <br>
