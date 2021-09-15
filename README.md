@@ -15,18 +15,19 @@ HW_1 :
 [-1,-1,-1,-1,-1],[-10,-9,-8,-7,-6],[10,9,8,7,6],[10,10,10,10,10],[-10,-10,-10,-10,-10],[0,0,0,0,0]
 
 # Code can be found in the below Jupyter Notebook
-https://github.com/dnaidu2/MAE598-Design-Optimization/blob/8ee7ea7e9333dbb58919a2e89d7d94ab90e98d7f/HW_1.ipynb
+https://github.com/dnaidu2/MAE598-Design-Optimization/blob/1102664ac42fe87ac860cfadb32db1ce614028a3/HW_1.ipynb
 
 # Change your initial guess, do you find different solutions?
 
 |Iteration       |	      |Function            |      |X values| <br>
 |:---------------|        |:----------------   |      |:--------------------------------------------------------------------|  
-|__-1,-1,-1,-1,-1|	      |1.488372093"98987"  |      |-0.0697'4738',0.02324913,1.51162303,1.46512478,-0.02324913__ <br>
-|-10,-9,-8,-7,-6 |        |1.4883720958972313  |      |-0.0697679,0.02325597,1.51166589,1.46515395,-0.02325597 <br>
-|__10,9,8,7,6	 |        |1.488372093"0250495"|      |-0.0697'6684', 0.02325561,  1.51162849,  1.46511726, -0.02325561__ <br>
-|10,10,10,10,10	 |        |1.4883720940959808  |      |-0.06977049,0.02325683,1.5116055,1.46509184,-0.02325683 <br>
-|-10,-10,-10,-10,-10|	  |1.488372098254787   |      |-0.06976901,  0.02325634,  1.51167928,  1.46516661, -0.02325634 <br>
-|0,0,0,0,0	     |        |1.4883720930232558  |      |-0.06976744,0.02325581,1.5116279 ,  1.46511628, -0.02325581 <br>
+|__-1,-1,-1,-1,-1|	      |4.09302325"5824878" |      |-0.7674'4284',  0.25581428,  0.62790506, -0.1162765 ,  0.25581428__ <br>
+|-10,-9,-8,-7,-6 |        |4.093023255813954   |      |-0.76744186,  0.25581395,  0.62790697, -0.11627907,  0.25581395 <br>
+|10,9,8,7,6	     |        |4.093023255813954   |      |-0.76744185,  0.25581395,  0.62790697, -0.11627906,  0.25581395 <br>
+|10,10,10,10,10	 |        |4.093023258012402   |      |-0.76745276,  0.25581759,  0.62787785, -0.11624268,  0.25581759 <br>
+|__-10,-10,-10,-10,-10|	  |4.09302325"604787"  |      |-0.7674'3824',  0.25581275,  0.62791644, -0.11629094,  0.25581275__ <br>
+|0,0,0,0,0	     |        |4.093023255813954   |      |-0.76744186,  0.25581395,  0.62790698, -0.11627907,  0.25581395 <br>
 
 - Based on above iterations, I observed that with change in initial conditions there is very minimum change in the solution.
-For example, when we consider the 2 scenarios(1st and 3rd), we can see that value of function changes at 10th decimal point and value of x1 changes from 5th decimal point, which can be considered as very minimum. 
+For example, when we consider the 2 scenarios(1st and 5th), we can see that value of function changes at 9th decimal point and value of x1 changes from 5th decimal point, which is very minimum.
+- For some scenarios the function value is almost same and there is slight change in x values.
